@@ -1,0 +1,31 @@
+Selenium Suite: Automation tool => browser independent/OS independent/Free
+1. Selenium IDE => record & play <= HP UFT
+2. Selenium RC => deprecated
+3. Selenium WebDriver => web application testing
+4. Selenium Grid => cross browser/multi-platform/parallel testing
+
+
+<input type="text" name="userName" size="10">
+input = tagName
+type,name,size = attributes (unique/general)
+"info" => values
+
+
+tagName = a => link/hyperlink
+<a href="index.php" style="color: #0000ee;text-decoration: underline;">
+your destination
+</a>
+
+
+
+<input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off" placeholder="" class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search">
+
+
+###Xpath####
+/html/body/div[3]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/input
+
+####Css selector#####
+body > div:nth-child(6) > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(2) > td:nth-child(3) > form > table > tbody > tr:nth-child(4) > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > input[type=text]
+
+
+
